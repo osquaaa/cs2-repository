@@ -1,0 +1,188 @@
+.header {
+	background: #ffffff4e;
+	backdrop-filter: blur(40px);
+}
+.header__container {
+	min-height: 60px;
+}
+/*body{
+
+}
+
+.cases-content{
+	display: flex;
+	margin-top: 100px;
+}
+
+.cases-num{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 250px);
+	max-width: 1000px; 
+	justify-content: center; 
+	align-items: center;
+	column-gap: 80px; 
+	row-gap: 60px; 
+	margin: 0 auto;
+}
+.cases-title{
+
+}
+.cases-card{
+
+}
+.cases-card__content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.case-logo img{
+	height: 300px;
+	transition: 0.5s;
+}
+.cases-card:hover .case-logo img{
+	transform: scale(1.1);
+}
+.open-btn button{
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 10px 0px 0px 0px;
+}
+.case-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+.cases-card:hover .case-text{
+	transform: scale(1.06);
+}
+.case-title{
+	margin: 5px 0px 5px 0px;
+	font-size: 20px;
+	color: #ffffff;
+}
+.case-price{
+	font-size: 20px;
+}
+*/
+
+
+
+
+
+
+
+
+
+.contacts-main {
+	justify-content: center;
+	margin: 80px 0px 0px 0px;
+	z-index: 51;
+}
+.contacts-main__title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+.contacts-main__cards {
+	display: grid;
+	/* Автоматически заполняем на всю ширину grid-контейнера */
+	grid-template-columns: repeat(auto-fill, 250px);
+	max-width: 1000px; /* Ширина grid-контейнера */
+	justify-content: center; /* Размещаем карточку по центру */
+	align-items: center;
+	column-gap: 100px; /* Отступ между колонками */
+	row-gap: 30px; /* Отступ между рядами */
+	margin: 0 auto;
+	padding: 30px 0px 0px 0px;
+}
+.contacts-main__card {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	width: 250px;
+	border-radius: 10px;
+	z-index: 56;
+}
+.contacts-main__card:hover .contacts-main__card_img img{
+	transform: scale(1.1);
+}
+@media (max-width: 850px) {
+	.contacts-main__cards:last-child {
+	}
+}
+.footer__copy {
+	margin: 0 auto;
+}
+.footer__bottom{
+	visibility: hidden;
+}
+.contacts-main__card_title {
+	color: #fff;
+	font-size: 24px;
+	margin: 0px 0px 10px 0px;
+	font-weight: 600;
+}
+.contacts-main__card_link {
+	font-size: 20px;
+	cursor: pointer;
+}
+.contacts-main__card_link:hover {
+	text-decoration: underline;
+}
+.contacts-main__card_links {
+	margin: 0px 0px 35px 0px;
+}
+.contacts-main__card-content {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contacts-main__card_img {
+	margin: 0px 0px 7px 0px;
+}
+.contacts-main__card_img img {
+	height: 300px;
+	transition: 0.5s;
+}
+.contacts-main__card_price{
+	font-size: 20px;
+	font-weight: 600;
+}
+.next{
+	background-color: #ffffff00;
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	top: 200%;
+}
+.open-btn button{
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #0B63F6;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 10px 0px 0px 0px;
+}
+
+.open-btn button:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #3C82F8;
+}
+@media (max-width: 340px) {
+	.contacts-main{
+		margin: 100px 0px 0px 0px;
+	}
+}
